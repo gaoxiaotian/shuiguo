@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif; }
+
+.yh-header {
+  width: 100%;
+  background: #76d49b; }
+  .yh-header ul {
+    width: 100%;
+    display: flex;
+    font-size: 4vw;
+    justify-content: space-around;
+    padding: 2% 0;
+    align-items: center; }
+    .yh-header ul li {
+      width: 33%; }
+    .yh-header ul li:nth-child(1) {
+      text-align: left;
+      color: white; }
+      .yh-header ul li:nth-child(1) a {
+        text-decoration: none; }
+    .yh-header ul li:nth-child(2) {
+      text-align: center;
+      color: white; }
+    .yh-header ul li:nth-child(3) {
+      padding-left: 15%; }
+      .yh-header ul li:nth-child(3) > a > p {
+        width: 33%;
+        height: 20%;
+        line-height: 20%;
+        text-align: center;
+        border-radius: 20px;
+        background: white; }
+        .yh-header ul li:nth-child(3) > a > p img {
+          width: 80%; }
+
+.yh-div2 {
+  width: 100%; }
+  .yh-div2 > img {
+    width: 100%; }
+
+.yh-div3 {
+  margin-top: -1%; }
+  .yh-div3 > div:nth-child(1) {
+    width: 100%;
+    background: #2AD2C9; }
+    .yh-div3 > div:nth-child(1) > p {
+      align-items: center;
+      width: 72%;
+      padding: 1%;
+      font-size: 3.4vw;
+      color: white;
+      display: flex;
+      margin-left: 3%; }
+      .yh-div3 > div:nth-child(1) > p > span {
+        text-align: center;
+        display: block;
+        padding: 1%;
+        width: 8%;
+        border-radius: 5px;
+        background: white;
+        color: #2AD2C9; }
+  .yh-div3 > div:nth-child(2) {
+    display: flex;
+    width: 100%; }
+    .yh-div3 > div:nth-child(2) div {
+      margin: 3%; }
+    .yh-div3 > div:nth-child(2) > div:nth-child(1) {
+      width: 38%; }
+      .yh-div3 > div:nth-child(2) > div:nth-child(1) > img {
+        width: 100%; }
+    .yh-div3 > div:nth-child(2) > div:nth-child(2) {
+      width: 63%; }
+      .yh-div3 > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) {
+        margin-bottom: 15%;
+        font-size: 1.6rem; }
+        .yh-div3 > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) > span {
+          font-size: 1.4rem;
+          color: #ccc; }
+      .yh-div3 > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) {
+        display: flex;
+        justify-content: space-between; }
+        .yh-div3 > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) > span:nth-child(1) {
+          color: #CE3B41;
+          font-size: 1.8rem;
+          font-weight: 600; }
+        .yh-div3 > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) > span:nth-child(2) > img {
+          width: 75%; }
+  .yh-div3 > div:nth-child(3) {
+    width: 100%;
+    background: #f0f0f0;
+    height: 13px; }
+
+.yh-div4 {
+  margin-top: -1%; }
+  .yh-div4 > div:nth-child(1) {
+    width: 100%;
+    background: #2AD2C9; }
+    .yh-div4 > div:nth-child(1) > p {
+      align-items: center;
+      width: 72%;
+      padding: 1%;
+      font-size: 3.4vw;
+      color: white;
+      display: flex;
+      margin-left: 3%; }
+      .yh-div4 > div:nth-child(1) > p > span {
+        text-align: center;
+        display: block;
+        padding: 1%;
+        width: 8%;
+        border-radius: 5px;
+        background: white;
+        color: #2AD2C9; }
+  .yh-div4 > div:nth-child(2) {
+    display: flex;
+    width: 100%; }
+    .yh-div4 > div:nth-child(2) div {
+      margin: 3%; }
+    .yh-div4 > div:nth-child(2) > div:nth-child(1) {
+      width: 38%; }
+      .yh-div4 > div:nth-child(2) > div:nth-child(1) > img {
+        width: 100%; }
+    .yh-div4 > div:nth-child(2) > div:nth-child(2) {
+      width: 63%; }
+      .yh-div4 > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) {
+        margin-bottom: 7%;
+        font-size: 1.6rem; }
+        .yh-div4 > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) > span {
+          font-size: 1.4rem;
+          color: #ccc; }
+      .yh-div4 > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) {
+        display: flex;
+        justify-content: space-between; }
+        .yh-div4 > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) > span:nth-child(1) {
+          color: #CE3B41;
+          font-size: 1.8rem;
+          font-weight: 600; }
+        .yh-div4 > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) > span:nth-child(2) > img {
+          width: 75%; }
+  .yh-div4 > div:nth-child(3) {
+    width: 100%;
+    background: #f0f0f0;
+    height: 13px; }
+
+.yh-div5 {
+  opacity: .3;
+  margin-top: -1%; }
+  .yh-div5 > div:nth-child(1) {
+    width: 100%;
+    background: #ccc; }
+    .yh-div5 > div:nth-child(1) > p {
+      align-items: center;
+      width: 72%;
+      padding: 1%;
+      font-size: 3.4vw;
+      color: white;
+      display: flex;
+      margin-left: 3%; }
+      .yh-div5 > div:nth-child(1) > p > span {
+        text-align: center;
+        display: block;
+        padding: 1%;
+        width: 8%;
+        border-radius: 5px;
+        background: white;
+        color: #2AD2C9; }
+  .yh-div5 > div:nth-child(2) {
+    display: flex;
+    width: 100%; }
+    .yh-div5 > div:nth-child(2) div {
+      margin: 3%; }
+    .yh-div5 > div:nth-child(2) > div:nth-child(1) {
+      width: 38%; }
+      .yh-div5 > div:nth-child(2) > div:nth-child(1) > img {
+        width: 100%; }
+    .yh-div5 > div:nth-child(2) > div:nth-child(2) {
+      width: 63%; }
+      .yh-div5 > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) {
+        margin-bottom: 7%;
+        font-size: 1.6rem; }
+        .yh-div5 > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) > span {
+          font-size: 1.4rem;
+          color: #ccc; }
+      .yh-div5 > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) {
+        display: flex;
+        justify-content: space-between; }
+        .yh-div5 > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) > span:nth-child(1) {
+          color: #CE3B41;
+          font-size: 1.8rem;
+          font-weight: 600; }
+        .yh-div5 > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) > span:nth-child(2) > img {
+          width: 75%; }
+    .yh-div5 > div:nth-child(2) > div:nth-child(3) {
+      width: 100px;
+      height: 100px;
+      margin: 20px; }
+      .yh-div5 > div:nth-child(2) > div:nth-child(3) > img {
+        width: 50%; }
+  .yh-div5 > div:nth-child(3) {
+    width: 100%;
+    background: #f0f0f0;
+    height: 13px; }
+
+/*# sourceMappingURL=youhui.css.map */

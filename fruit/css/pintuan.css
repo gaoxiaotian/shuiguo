@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif; }
+
+.p-header {
+  width: 100%;
+  background: #76d49b; }
+  .p-header ul {
+    width: 96%;
+    display: flex;
+    font-size: 3rem;
+    justify-content: space-between;
+    padding: 2% 2%;
+    align-items: center;
+    color: white; }
+
+.p-xian {
+  width: 100%;
+  background: #f0f0f0;
+  padding: 1.5% 0; }
+
+.p-div {
+  width: 100%;
+  border-top: 1px  solid gainsboro;
+  border-bottom: 1px  solid gainsboro; }
+  .p-div .p-d-t {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px   solid  gainsboro; }
+    .p-div .p-d-t > p {
+      width: 30%; }
+      .p-div .p-d-t > p img {
+        width: 90%; }
+    .p-div .p-d-t > div {
+      width: 70%; }
+      .p-div .p-d-t > div > p {
+        margin: 4.5% 2%; }
+      .p-div .p-d-t > div > p:nth-child(1) {
+        color: #2ad2c9;
+        font-size: 3.5vw;
+        font-weight: 500; }
+      .p-div .p-d-t > div > p:nth-child(2) {
+        color: grey; }
+      .p-div .p-d-t > div > div:nth-child(3) > div {
+        width: 100%;
+        display: flex; }
+        .p-div .p-d-t > div > div:nth-child(3) > div > p:nth-child(1) {
+          width: 10%;
+          text-align: center;
+          font-size: 2vw;
+          color: white;
+          padding: 2% 0;
+          background: #33bdb6; }
+        .p-div .p-d-t > div > div:nth-child(3) > div > p:nth-child(2) {
+          width: 30%;
+          text-align: center;
+          font-size: 2vw;
+          padding: 2% 0;
+          border-top: 1px  solid #33bdb6;
+          border-bottom: 1px  solid #33bdb6; }
+        .p-div .p-d-t > div > div:nth-child(3) > div > p:nth-child(3) {
+          width: 5%;
+          text-align: center;
+          font-size: 2vw;
+          padding: 2% 0;
+          background-color: #ff585d;
+          color: white; }
+  .p-div .p-d-b {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; }
+    .p-div .p-d-b > div:nth-child(1) {
+      width: 30%;
+      padding: 2%;
+      color: red; }
+    .p-div .p-d-b > div:nth-child(2) {
+      width: 70%;
+      display: flex;
+      justify-content: flex-end; }
+      .p-div .p-d-b > div:nth-child(2) > div {
+        height: 30px;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 30px;
+        margin: 1%;
+        border: 1px  solid  grey; }
+        .p-div .p-d-b > div:nth-child(2) > div a {
+          text-decoration: none;
+          color: black;
+          cursor: pointer; }
+
+.p-f {
+  width: 100%; }
+  .p-f > div {
+    width: 100%;
+    display: flex; }
+
+/*# sourceMappingURL=pintuan.css.map */

@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+html, body {
+  width: 100%;
+  font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif; }
+
+.swiper-container {
+  width: 100%; }
+  .swiper-container img {
+    width: 100%; }
+
+.st-div1 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1%; }
+  .st-div1 div:nth-child(1) {
+    width: 73%; }
+  .st-div1 div:nth-child(2) {
+    padding: 1%;
+    width: 26%;
+    background: #FF585D;
+    color: white; }
+
+.st-div2 {
+  width: 100%;
+  color: #2AD2C9; }
+  .st-div2 div {
+    padding: 2%;
+    border-bottom: 1px solid #ccc; }
+  .st-div2 div:nth-child(1) {
+    font-size: 1.8rem; }
+  .st-div2 div:nth-child(2) {
+    color: #7d7d7d; }
+  .st-div2 div:nth-child(3) {
+    height: 3px;
+    background: #F0F0F0; }
+  .st-div2 div:nth-child(4) {
+    font-size: 1.4rem;
+    text-align: center; }
+
+.st-div3 {
+  margin: 2%;
+  width: 96%;
+  color: #fff; }
+  .st-div3 > div {
+    display: flex; }
+    .st-div3 > div > div {
+      width: 48%; }
+  .st-div3 > div:nth-child(1) {
+    margin-bottom: 1%; }
+    .st-div3 > div:nth-child(1) > div {
+      width: 50px;
+      height: 25px;
+      background-color: #ff585d;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 25px;
+      border-radius: 5px;
+      font-size: 1.4rem; }
+    .st-div3 > div:nth-child(1) div:nth-child(2) {
+      background-color: #2ad2c9; }
+  .st-div3 > div:nth-child(2) > div {
+    background-color: #ff585d;
+    color: #FFF;
+    float: right;
+    height: 70px;
+    margin-right: 2%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 49%;
+    font-size: 2.2rem;
+    border-radius: 5px;
+    line-height: 30px; }
+  .st-div3 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.8rem; }
+  .st-div3 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    height: 30px;
+    line-height: 30px;
+    background-color: #F7494E; }
+  .st-div3 > div:nth-child(2) > div:nth-child(2) {
+    background-color: #2ad2c9; }
+    .st-div3 > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+      height: 40px;
+      line-height: 40px;
+      font-size: 1.8rem; }
+    .st-div3 > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+      height: 30px;
+      line-height: 30px;
+      background-color: #1ABAB1; }
+
+.st-div4 {
+  width: 96%; }
+  .st-div4 div {
+    margin: 2%; }
+  .st-div4 > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    color: #2AD2C9; }
+    .st-div4 > div:nth-child(1) > p:nth-child(2) {
+      color: #000; }
+  .st-div4 > div:nth-child(2) {
+    width: 98%;
+    display: flex;
+    justify-content: space-between; }
+    .st-div4 > div:nth-child(2) div {
+      display: flex;
+      width: 24.5%; }
+      .st-div4 > div:nth-child(2) div div {
+        border: 1px dotted #000;
+        border-radius: 50%;
+        height: 2rem;
+        line-height: 2rem;
+        text-align: center;
+        font-size: 1.8rem; }
+    .st-div4 > div:nth-child(2) > div:nth-child(1) {
+      color: #2AD2C9; }
+      .st-div4 > div:nth-child(2) > div:nth-child(1) > div {
+        background: #2AD2C9;
+        color: white; }
+
+.st-xian {
+  width: 100%;
+  height: 10px;
+  background: #F0F0F0;
+  border-bottom: 1px solid #cccbca;
+  border-top: 1px solid #cccbca; }
+
+.st-div5 {
+  width: 96%; }
+  .st-div5 div {
+    margin: 2%; }
+    .st-div5 div img {
+      width: 104%; }
+  .st-div5 > div:nth-child(1) {
+    color: #2AD2C9;
+    font-size: 1.8rem; }
+
+footer {
+  width: 100%;
+  display: flex;
+  background: #F7F7F7;
+  position: fixed;
+  bottom: 0; }
+  footer div {
+    margin: 2%; }
+    footer div img {
+      width: 80%;
+      margin-top: -1%; }
+  footer > div:nth-child(3) {
+    width: 76%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ff585d;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.6rem; }
+
+/*# sourceMappingURL=shouye1.css.map */

@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+
+}
+  .t-header {
+    width: 100%;
+    background: #76d49b;
+    ul {
+      width: 96%;
+      display: flex;
+      font-size: 2rem;
+      justify-content: space-between;
+      padding: 2% 0;
+      align-items: center;
+      color: white;
+      
+
+
+      }
+    }
+ 
+.t-big{
+    width: 100%;
+    
+
+.t-xian {
+    width: 100%;
+    background: #f0f0f0;
+    padding: 1.5% 0;
+}
+.t-kai {
+    width: 100%;
+    font-size: 2vw;
+    color: grey;
+    background: #e6efdf;
+    padding: 2% 0;
+    border-top: 1px solid #4cae4c;
+    border-bottom: 1px solid #4cae4c;
+    p {
+        text-align: center;
+    }
+    >p:nth-child(1) {
+        color: #4cae4c;
+        width: 100%;
+        img {
+            vertical-align: middle;
+            width: 5%;
+        }
+    }
+    >p:nth-child(2) {
+        width: 100%;
+    }
+}
+.t-tu {
+    width: 100%;
+    .t-d-t {
+        width: 100%;
+        margin-top: 3%;
+        display: flex;
+      
+        >p {
+            width: 30%;
+            img {
+                width: 80%;
+            }
+        }
+        >div {
+            width: 50%;
+            >p {
+                margin: 4.5% 2%;
+            }
+            >p:nth-child(1) {
+                color: #2ad2c9;
+                font-size: 3.5vw;
+                font-weight: 500;
+            }
+            >p:nth-child(2) {
+                color: grey;
+                >span {
+                    color: red;
+                }
+            }
+        }
+    }
+}
+.t-content {
+    width: 100%;
+    background: #f2f2f2;
+    margin-top: 3%;
+    >img {
+        width: 100%;
+        text-align: center;
+    }
+    padding: 6% 0;
+    .t-div1 {
+        width: 100%;
+        >p:nth-child(1) {
+            text-align: center;
+            padding-top: 3%;
+            font-size: 3vw;
+            color: #666666;
+            font-weight: bolder;
+            >strong {
+                color: red;
+            }
+        }
+        >p:nth-child(2) {
+            align-items: center;
+            width: 70%;
+            padding-top: 4%;
+            font-size: 3vw;
+            color: #666666;
+            display: flex;
+            margin-left: 30%;
+
+            >span {
+                text-align: center;
+                display: block;
+                padding: 1%;
+                width: 8%;
+                border-radius: 5px;
+                
+                background: rgba(102,102,102,0.8);
+                color: white;
+            }
+        }
+    }
+    .t-div2 {
+        width: 100%;
+        margin: 2%  0;
+        background: #333333;
+        padding: 2% 0;
+        font-size: 2.5vw;
+        img {
+            vertical-align: middle;
+            width: 10%;
+        }
+    }
+    .t-div3 {
+        width: 100%;
+        margin: 2% 0;
+        background: #d7d7d7;
+        padding: 2% 0;
+        font-size: 2.5vw;
+        img {
+            vertical-align: middle;
+            width: 10%;
+        }
+    }
+    .t-div4 {
+        width: 100%;
+        margin: 2% 0 0 0;
+        background: #d7d7d7;
+        padding: 2% 0;
+        font-size: 2.5vw;
+        img {
+            vertical-align: middle;
+            width: 10%;
+        }
+    }
+}
+.t-f {
+    
+    
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+    .t-f-b {
+        padding-top: 5%;
+        width: 100%;
+        display: flex;
+        .t-f-l {
+            width: 25%;
+            display: flex;
+            .t-l-l {
+                width: 40%;
+                padding-left: 6%;
+                align-items: center;
+                >p {
+                   
+                    width:25px;
+                    height: 25px;
+                    border: 1px dashed grey;
+                    border-radius: 50px;
+                    
+                    text-align: center;
+                    line-height: 25px;
+                }
+                
+            }
+            
+            .t-l-r{
+                width: 60%;
+                
+                
+            }
+            
+        }
+    }
+}
+
+.t-footer{
+    width: 100%;
+    margin-top: 6%;
+    background: red;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    padding: 5% 0;
+    
+}
+}

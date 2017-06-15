@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的订单</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="js/jquery.3.1.1.js">
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/FortAwesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/wodedindan.css">
+</head>
+<body>
+<div class="w-header">
+    <ul>
+        <li><a href="index.html#/zhongxin" style="color: white;font-size: 2rem;"><</a></li>
+        <li>我的订单</li>
+        <li><a href="index.html#/shouye"><i   class="fa fa-shopping-cart  fa-2x"  aria-hidden="true" style="color: white;"></i></a></li>
+    </ul>
+</div>
+
+<div   class="w-nav">
+<ul>
+    <li   class="w-on">全部订单</li>
+    <li>待付款</li>
+    <li>待收货</li>
+</ul>
+</div>
+<div  class="w-nr">
+    <div  class="w-item">
+        <div class="w-tu">
+            <div   class="w-d-t">
+
+                <p><a href="page/shouye1.html"><img src="images/pay1.jpg" alt=""></a></p>
+
+
+                <div>
+                    <p>越南进口白肉火龙果</p>
+                    <p>规格：2个装</p>
+                    <p>数量：1
+                        <span>￥14.00/件</span>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-d-b">
+                <p>共一件商品,免运费<span>实付：<strong   style="color: red">￥14.00</strong></span></p>
+                <p  style="color:red">已付款，已发送</p>
+            </div>
+        </div>
+        <div  class="w-xian">
+
+        </div>
+        <div class="w-tu">
+            <div   class="w-d-t">
+
+                <p><img src="images/myorder2.jpg" alt=""></p>
+
+
+                <div>
+                    <p>优选越南青皮金煌芒果</p>
+                    <p>规格：4斤装</p>
+                    <p>数量：1
+                        <span>￥49.00/件</span>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-d-b">
+                <p>共一件商品,免运费<span>实付：<strong   style="color: red">￥49.00</strong></span></p>
+                <p  style="color:red">未付款</p>
+            </div>
+        </div>
+    </div>
+    <div   class="w-item">
+        <div class="w-tu">
+            <div   class="w-d-t">
+
+                <p><img src="images/myorder2.jpg" alt=""></p>
+
+
+                <div>
+                    <p>优选越南青皮金煌芒果</p>
+                    <p>规格：4斤装</p>
+                    <p>数量：1
+                        <span>￥49.00/件</span>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-d-b">
+                <p>共一件商品,免运费<span>实付：<strong   style="color: red">￥49.00</strong></span></p>
+                <p  style="color:red">未付款</p>
+            </div>
+        </div>
+    </div>
+    <div   class="w-item">
+        <div class="w-tu">
+            <div   class="w-d-t">
+
+                <p><img src="images/pay1.jpg" alt=""></p>
+
+
+                <div>
+                    <p>越南进口白肉火龙果</p>
+                    <p>规格：2个装</p>
+                    <p>数量：1
+                        <span>￥14.00/件</span>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-d-b">
+                <p>共一件商品,免运费<span>实付：<strong   style="color: red">￥14.00</strong></span></p>
+                <p  style="color:red">已付款，已发送</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script>
+    $(".w-nav  ul li").click(function() {
+        $ind = $(this).index();
+        $(this).addClass("w-on");
+        $(this).siblings().removeClass("w-on");
+        $(".w-item").eq($ind).show();
+        $(".w-item").eq($ind).siblings().hide();
+    })
+</script>
+</html>

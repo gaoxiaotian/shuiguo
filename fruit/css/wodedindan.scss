@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+  a{
+      text-decoration: none;
+     
+  }
+
+}
+  .w-header {
+    width: 100%;
+    background: #76d49b;
+    ul {
+      width: 96%;
+      display: flex;
+      font-size: 3rem;
+      justify-content: space-between;
+      padding: 2% 2%;
+      align-items: center;
+      color: white;
+      
+
+
+      }
+    }
+.w-nav{
+  font-size: 1.5rem;
+  margin:3% auto;
+  width: 96%;
+
+>ul{
+  width: 100%;
+
+  display: flex;
+  >li{
+    width: 33%;
+   text-align: center;
+    padding: 2% 0;
+    color: #2ad2c9;
+    border: 1px  solid #2ad2c9;
+  }
+  .w-on{
+    background: #2ad2c9;
+    color:white;
+
+  }
+  >li:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+
+  }
+  >li:nth-child(3) {
+    border-radius:0  10px  10px 0;
+
+  }
+
+}
+
+}
+
+.w-nr{
+  width: 100%;
+  .w-item{
+    width: 100%;
+    display: none;
+  }
+  .w-item:nth-child(1){
+    width: 100%;
+    display: block;
+    .w-tu{
+      width: 100%;
+      .w-d-t{
+        width: 100%;
+        display: flex;
+        border-top: 1px   solid  gainsboro;
+        border-bottom: 1px   solid  gainsboro;
+        >p{
+          width: 30%;
+          img{
+            width: 80%;
+          }
+        }
+        >div{
+          width: 70%;
+
+          >p{
+            margin: 4.5% 2%;
+          }
+          >p:nth-child(1){
+            color: #2ad2c9;
+            font-size:2.5vw;
+            font-weight: 500;
+          }
+          >p:nth-child(2){
+            color: grey;
+
+          }
+          >p:nth-child(3){
+            color: grey;
+            >span{
+              color: red;
+              margin-left: 60%;
+            }
+
+          }
+
+        }
+      }
+      .w-d-b{
+        width: 100%;
+        >p{
+          width:100%;
+          margin:2% 0 ;
+          padding:0 2%;
+        }
+        >p:nth-child(1){
+          width:100% ;
+          >span{
+       float: right;
+          }
+        }
+      }
+    }
+    .w-xian{
+      width: 100%;
+      padding: 1%;
+      background: #f3f3f3;
+    }
+  }
+  .w-item:nth-child(2){
+    width: 100%;
+
+    .w-tu{
+      width: 100%;
+      .w-d-t{
+        width: 100%;
+        display: flex;
+        border-top: 1px   solid  gainsboro;
+        border-bottom: 1px   solid  gainsboro;
+        >p{
+          width: 30%;
+          img{
+            width: 80%;
+          }
+        }
+        >div{
+          width: 70%;
+
+          >p{
+            margin: 4.5% 2%;
+          }
+          >p:nth-child(1){
+            color: #2ad2c9;
+            font-size:2.5vw;
+            font-weight: 500;
+          }
+          >p:nth-child(2){
+            color: grey;
+
+          }
+          >p:nth-child(3){
+            color: grey;
+            >span{
+              color: red;
+              margin-left: 60%;
+            }
+
+          }
+
+        }
+      }
+      .w-d-b{
+        width: 100%;
+        >p{
+          width:100%;
+          margin:2% 0 ;
+          padding:0 2%;
+        }
+        >p:nth-child(1){
+          width:100% ;
+          >span{
+            float: right;
+          }
+        }
+      }
+    }
+
+  }
+  .w-item:nth-child(3){
+    width: 100%;
+
+    .w-tu{
+      width: 100%;
+      .w-d-t{
+        width: 100%;
+        display: flex;
+        border-top: 1px   solid  gainsboro;
+        border-bottom: 1px   solid  gainsboro;
+        >p{
+          width: 30%;
+          img{
+            width: 80%;
+          }
+        }
+        >div{
+          width: 70%;
+
+          >p{
+            margin: 4.5% 2%;
+          }
+          >p:nth-child(1){
+            color: #2ad2c9;
+            font-size:2.5vw;
+            font-weight: 500;
+          }
+          >p:nth-child(2){
+            color: grey;
+
+          }
+          >p:nth-child(3){
+            color: grey;
+            >span{
+              color: red;
+              margin-left: 60%;
+            }
+
+          }
+
+        }
+      }
+      .w-d-b{
+        width: 100%;
+        >p{
+          width:100%;
+          margin:2% 0 ;
+          padding:0 2%;
+        }
+        >p:nth-child(1){
+          width:100% ;
+          >span{
+            float: right;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+

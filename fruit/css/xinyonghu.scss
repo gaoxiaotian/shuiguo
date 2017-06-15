@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+
+.sx-div1{
+  width:100%;
+  background: #76D49B;
+  display: flex;
+  font-size: 1.2rem;
+  color: white;
+  height:45px;
+  line-height: 45px;
+  justify-content: space-between;
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+.sx-div2{
+  width:96%;
+  >div{
+    margin:2%;
+    display: flex;
+  }
+  >div:nth-child(1){
+    >div:nth-child(1){
+      width:30%;
+      background: #ccc;
+      height:50px;
+      >img{
+        width:30%;
+        padding:9% 31%;
+
+      }
+    }
+    >div:nth-child(2){
+      height:50px;
+      >input{
+        width:100%;
+        height:46px;
+      }
+    }
+    >div:nth-child(3){
+      //display: none;
+      height:50px;
+      >input{
+        width:200%;
+        height:50px;
+        color: white;
+        background: #ccc;
+      }
+    }
+
+  }
+  >div:nth-child(2){
+    >div:nth-child(1){
+      width:30%;
+      background: #ccc;
+      height:50px;
+      >img{
+        width:30%;
+        padding:9% 31%;
+
+      }
+    }
+    >div:nth-child(2){
+      height:50px;
+      >input{
+        width:170%;
+        height:46px;
+      }
+    }
+  }
+  >div:nth-child(3){
+    >button{
+      background-color: #2ad2c9;
+      width: 100%;
+      border-radius: 4px;
+      color: white;
+      padding:2%;
+    }
+  }
+
+}

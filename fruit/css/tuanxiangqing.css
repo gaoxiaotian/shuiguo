@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif; }
+
+.t-header {
+  width: 100%;
+  background: #76d49b; }
+  .t-header ul {
+    width: 96%;
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+    padding: 2% 0;
+    align-items: center;
+    color: white; }
+
+.t-big {
+  width: 100%; }
+  .t-big .t-xian {
+    width: 100%;
+    background: #f0f0f0;
+    padding: 1.5% 0; }
+  .t-big .t-kai {
+    width: 100%;
+    font-size: 2vw;
+    color: grey;
+    background: #e6efdf;
+    padding: 2% 0;
+    border-top: 1px solid #4cae4c;
+    border-bottom: 1px solid #4cae4c; }
+    .t-big .t-kai p {
+      text-align: center; }
+    .t-big .t-kai > p:nth-child(1) {
+      color: #4cae4c;
+      width: 100%; }
+      .t-big .t-kai > p:nth-child(1) img {
+        vertical-align: middle;
+        width: 5%; }
+    .t-big .t-kai > p:nth-child(2) {
+      width: 100%; }
+  .t-big .t-tu {
+    width: 100%; }
+    .t-big .t-tu .t-d-t {
+      width: 100%;
+      margin-top: 3%;
+      display: flex; }
+      .t-big .t-tu .t-d-t > p {
+        width: 30%; }
+        .t-big .t-tu .t-d-t > p img {
+          width: 80%; }
+      .t-big .t-tu .t-d-t > div {
+        width: 50%; }
+        .t-big .t-tu .t-d-t > div > p {
+          margin: 4.5% 2%; }
+        .t-big .t-tu .t-d-t > div > p:nth-child(1) {
+          color: #2ad2c9;
+          font-size: 3.5vw;
+          font-weight: 500; }
+        .t-big .t-tu .t-d-t > div > p:nth-child(2) {
+          color: grey; }
+          .t-big .t-tu .t-d-t > div > p:nth-child(2) > span {
+            color: red; }
+  .t-big .t-content {
+    width: 100%;
+    background: #f2f2f2;
+    margin-top: 3%;
+    padding: 6% 0; }
+    .t-big .t-content > img {
+      width: 100%;
+      text-align: center; }
+    .t-big .t-content .t-div1 {
+      width: 100%; }
+      .t-big .t-content .t-div1 > p:nth-child(1) {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 3vw;
+        color: #666666;
+        font-weight: bolder; }
+        .t-big .t-content .t-div1 > p:nth-child(1) > strong {
+          color: red; }
+      .t-big .t-content .t-div1 > p:nth-child(2) {
+        align-items: center;
+        width: 70%;
+        padding-top: 4%;
+        font-size: 3vw;
+        color: #666666;
+        display: flex;
+        margin-left: 30%; }
+        .t-big .t-content .t-div1 > p:nth-child(2) > span {
+          text-align: center;
+          display: block;
+          padding: 1%;
+          width: 8%;
+          border-radius: 5px;
+          background: rgba(102, 102, 102, 0.8);
+          color: white; }
+    .t-big .t-content .t-div2 {
+      width: 100%;
+      margin: 2%  0;
+      background: #333333;
+      padding: 2% 0;
+      font-size: 2.5vw; }
+      .t-big .t-content .t-div2 img {
+        vertical-align: middle;
+        width: 10%; }
+    .t-big .t-content .t-div3 {
+      width: 100%;
+      margin: 2% 0;
+      background: #d7d7d7;
+      padding: 2% 0;
+      font-size: 2.5vw; }
+      .t-big .t-content .t-div3 img {
+        vertical-align: middle;
+        width: 10%; }
+    .t-big .t-content .t-div4 {
+      width: 100%;
+      margin: 2% 0 0 0;
+      background: #d7d7d7;
+      padding: 2% 0;
+      font-size: 2.5vw; }
+      .t-big .t-content .t-div4 img {
+        vertical-align: middle;
+        width: 10%; }
+  .t-big .t-f {
+    width: 100%;
+    border-bottom: 1px solid darkgray; }
+    .t-big .t-f .t-f-b {
+      padding-top: 5%;
+      width: 100%;
+      display: flex; }
+      .t-big .t-f .t-f-b .t-f-l {
+        width: 25%;
+        display: flex; }
+        .t-big .t-f .t-f-b .t-f-l .t-l-l {
+          width: 40%;
+          padding-left: 6%;
+          align-items: center; }
+          .t-big .t-f .t-f-b .t-f-l .t-l-l > p {
+            width: 25px;
+            height: 25px;
+            border: 1px dashed grey;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 25px; }
+        .t-big .t-f .t-f-b .t-f-l .t-l-r {
+          width: 60%; }
+  .t-big .t-footer {
+    width: 100%;
+    margin-top: 6%;
+    background: red;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    padding: 5% 0; }
+
+/*# sourceMappingURL=tuanxiangqing.css.map */
